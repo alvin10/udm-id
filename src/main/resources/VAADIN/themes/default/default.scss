@@ -1,0 +1,11 @@
+$v-font-size: 13px;
+//$v-border-radius: 2px;
+//$v-gradient: v-linear 0%;
+
+@import "../valo/valo";
+
+@mixin default {
+
+  @include valo;
+
+}
